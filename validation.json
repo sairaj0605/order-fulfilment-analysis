@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "SQL/Pandas all-order parity",
+    "ordered = shipped + remaining per order",
+    "partial shipments aggregate without over-fulfilment",
+    "cancelled orders excluded from KPI",
+    "due-today boundary checked",
+    "foreign keys checked"
+  ]
+}
